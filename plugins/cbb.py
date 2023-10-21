@@ -7,22 +7,26 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, 
 
 @Bot.on_callback_query()
 async def cb_handler(client: Bot, query: CallbackQuery):
-    data = query.data
-    if data == "about":
-        await query.message.edit_text(
-            text = f"<b>○ Creator : <a href='tg://user?id={OWNER_ID}'>This Person</a>\n○ Language : <code>Python3</code>\n○ Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n○ Source Code : <a href='https://github.com/CodeXBotz/File-Sharing-Bot'>Click here</a>\n○ Channel : @CodeXBotz\n○ Support Group : @CodeXBotzSupport</b>",
-            disable_web_page_preview = True,
-            reply_markup = InlineKeyboardMarkup(
+    await message.reply_photo(
+            photo="https://graph.org/file/648bb4dba065accd53c5c.jpg",
+            caption="""<b>ᴍʏ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ</b>
+
+<b>╭━━━━━━━━━━━━━━━━━━━━━</b>
+┃
+┣⪼<b>Bᴏᴛ Nᴀᴍᴇ : <a href='https://t.me/Arsenal_Bots_Updates'>𝔽𝕚𝕝𝕖 𝕋𝕠 𝕃𝕚𝕟𝕜</a>
+┣⪼<b>Dᴇᴠᴇʟᴏᴩᴇʀ: <a href='https://t.me/Shadow_XD_ChatBot'>ꕶʜᴀᴅᴏꪝ</a>
+┣⪼<b>Lɪʙʀᴀʀʏ : Pʏʀᴏɢʀᴀᴍ</b>
+┣⪼<b>Bᴇꜱᴛ Fʀɪᴇɴᴅ: <a href='tg://settings'>Tʜɪꜱ Pᴇʀꜱᴏɴ</a>
+┣⪼<b>Lᴀɴɢᴜᴀɢᴇ: Pʏᴛʜᴏɴ 3</b>
+┣⪼<b>Oᴜʀ Cᴏᴍᴍᴜɴɪᴛʏ: <a href='https://t.me/Team_XDs'>Xᴛʀᴀ Dᴇsᴄᴇɴᴛs</a>
+┃
+<b>╰━━━━━━━━━━━━━━━</b>""",
+  
+        
+        reply_markup=InlineKeyboardMarkup(
                 [
-                    [
-                        InlineKeyboardButton("🔒 Close", callback_data = "close")
-                    ]
+                    [InlineKeyboardButton("Dᴇᴠ/Oᴡɴᴇʀ", url="https://t.me/Shadow_XD_ChatBot")],
                 ]
-            )
+            ),
+            
         )
-    elif data == "close":
-        await query.message.delete()
-        try:
-            await query.message.reply_to_message.delete()
-        except:
-            pass
