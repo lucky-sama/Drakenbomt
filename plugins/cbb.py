@@ -18,14 +18,16 @@ async def start_command(client: Client, message: Message):
 ┣⪼<b>Lɪʙʀᴀʀʏ : Pʏʀᴏɢʀᴀᴍ</b>
 ┣⪼<b>Bᴇꜱᴛ Fʀɪᴇɴᴅ: <a href='tg://settings'>Tʜɪꜱ Pᴇʀꜱᴏɴ</a>
 ┣⪼<b>Lᴀɴɢᴜᴀɢᴇ: Pʏᴛʜᴏɴ 3</b>
-┣⪼<b>Oᴜʀ Cᴏᴍᴍᴜɴɪᴛʏ: <a href='https://t.me/Team_XDs'>Xᴛʀᴀ Dᴇsᴄᴇɴᴛs</a>
 ┃
 <b>╰━━━━━━━━━━━━━━━</b>""",
   
         
         reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("Dᴇᴠ/Oᴡɴᴇʀ", url="https://t.me/Shadow_XD_ChatBot")],
+                    [InlineKeyboardButton("Oᴡɴᴇʀ", url="https://t.me/Shadow_XD_ChatBot"),
+                    InlineKeyboardButton("Cʜᴀɴɴᴇʟ", url="https://t.me/+-zSPDnReshc0OGI9")],
+                ],[
+                    InlineKeyboardButton("Oᴜʀ Cᴏᴍᴍᴜɴɪᴛʏ", url="https://t.me/Team_XDs")
                 ]
             ),
             
