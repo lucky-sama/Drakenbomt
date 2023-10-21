@@ -88,10 +88,8 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🤖 Bᴏᴛꜱ Uᴘᴅᴀᴛᴇs 🤖", url="https://t.me/Arsenal_Bots_Updates"),
-                ],[   
-                    InlineKeyboardButton("💬 Sᴜᴘᴘᴏʀᴛ", url="https://t.me/HelpDesk_XDs"),
-                    InlineKeyboardButton("🎪 Aʙᴏᴜᴛ Mᴇ", callback_data = "about")
+                    InlineKeyboardButton("🤖 Uᴘᴅᴀᴛᴇs", url="https://t.me/Arsenal_Bots_Updates"),
+                    InlineKeyboardButton("💬 Sᴜᴘᴘᴏʀᴛ", url="https://t.me/HelpDesk_XDs")   
                 ],[
                     InlineKeyboardButton("❗ Cʀᴇᴀᴛᴇ Yᴏᴜʀ Oᴡɴ Bᴏᴛ ❗", url="https://t.me/Shadow_XD_ChatBot")
 
