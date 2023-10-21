@@ -13,7 +13,7 @@ async def start_command(client: Client, message: Message):
 
 <b>╭━━━━━━━━━━━━━━━━━━━━━</b>
 ┃
-┣⪼<b>Bᴏᴛ Nᴀᴍᴇ : <a href='https://t.me/Arsenal_Bots_Updates'>𝔽𝕚𝕝𝕖 𝕋𝕠 𝕃𝕚𝕟𝕜</a>
+┣⪼<b>Bᴏᴛ Nᴀᴍᴇ : <a href='https://t.me/Arsenal_Bots_Updates'>File Sharing Bot</a>
 ┣⪼<b>Dᴇᴠᴇʟᴏᴩᴇʀ: <a href='https://t.me/Shadow_XD_ChatBot'>ꕶʜᴀᴅᴏꪝ</a>
 ┣⪼<b>Lɪʙʀᴀʀʏ : Pʏʀᴏɢʀᴀᴍ</b>
 ┣⪼<b>Bᴇꜱᴛ Fʀɪᴇɴᴅ: <a href='tg://settings'>Tʜɪꜱ Pᴇʀꜱᴏɴ</a>
