@@ -19,7 +19,7 @@ APP_ID = int(os.environ.get("APP_ID", "28839759"))
 API_HASH = os.environ.get("API_HASH", "c5ec8c471ec25acc97db0f5089c7a63a")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001824019546"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002145793314"))
 
 #OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "1737202396"))
@@ -32,7 +32,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://arsenalbotz:arsenalbotz@a
 DB_NAME = os.environ.get("DATABASE_NAME", "arsenal")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001912170427"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002145793314"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
