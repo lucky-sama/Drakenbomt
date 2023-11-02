@@ -10,29 +10,29 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6568660917:AAEvafPhQOAK01fv427vUdJCaoTaA08ZBoY")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6552734964:AAHNspEeQWt4FIR6bc5QjPmV6jp4HO8aIjg")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "28839759"))
+APP_ID = int(os.environ.get("APP_ID", "29538539"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "c5ec8c471ec25acc97db0f5089c7a63a")
+API_HASH = os.environ.get("API_HASH", "e3141eb87727600cee656cf0cf8007d6")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1001824019546"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002041198640"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "1737202396"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "6230236721"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://arsenalbotz:arsenalbotz@arsenal.28uwin5.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "arsenal")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://mralone:mralone@teamxds.zpsi9fb.mongodb.net/?retryWrites=true&w=majority")
+DB_NAME = os.environ.get("DATABASE_NAME", "teamxds")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002145793314"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001927121553"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
