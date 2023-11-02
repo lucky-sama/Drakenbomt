@@ -13,7 +13,7 @@ async def start_command(client: Client, message: Message):
 
 <b>╭━━━━━━━━━━━━━━━━━━━━━</b>
 ┃
-┣⪼<b>Bᴏᴛ Nᴀᴍᴇ : <a href='https://t.me/Arsenal_Bots_Updates'>File Sharing Bot</a>
+┣⪼<b>Bᴏᴛ Nᴀᴍᴇ : <a href='https://t.me/File_Share_GoDbot'>File Sharing Bot</a>
 ┣⪼<b>Dᴇᴠᴇʟᴏᴩᴇʀ: <a href='https://t.me/Shadow_XD_ChatBot'>ꕶʜᴀᴅᴏꪝ</a>
 ┣⪼<b>Lɪʙʀᴀʀʏ : Pʏʀᴏɢʀᴀᴍ</b>
 ┣⪼<b>Bᴇꜱᴛ Fʀɪᴇɴᴅ: <a href='tg://settings'>Tʜɪꜱ Pᴇʀꜱᴏɴ</a>
@@ -24,10 +24,10 @@ async def start_command(client: Client, message: Message):
         
         reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton("Oᴡɴᴇʀ", url="https://t.me/Shadow_XD_ChatBot"),
-                    InlineKeyboardButton("Cʜᴀɴɴᴇʟ", url="https://t.me/+-zSPDnReshc0OGI9")],
+                    [InlineKeyboardButton("Oᴡɴᴇʀ", url="https://t.me/Lucky_exe"),
+                    InlineKeyboardButton("Cʜᴀɴɴᴇʟ", url="https://t.me/+4a0naRezQIM2ODRl")],
                 ],[
-                    InlineKeyboardButton("Oᴜʀ Cᴏᴍᴍᴜɴɪᴛʏ", url="https://t.me/Team_XDs")
+                    InlineKeyboardButton("Oᴜʀ Cᴏᴍᴍᴜɴɪᴛʏ", url="https://t.me/Team_Godz")
                 ]
             ),
             
