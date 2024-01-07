@@ -89,9 +89,9 @@ async def start_command(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton("🍁 Uᴘᴅᴀᴛᴇs", url="https://t.me/Elites_Bots"),
-                    InlineKeyboardButton("💬 Sᴜᴘᴘᴏʀᴛ", url="https://t.me/Weebs_God")   
+                    InlineKeyboardButton("💬 Sᴜᴘᴘᴏʀᴛ", url="https://t.me/+--ZswOi5yvE5NDg1")   
                 ],[
-                    InlineKeyboardButton("⚜️ Mᴏᴠɪᴇs & Sᴇʀɪᴇs ⚜️", url="https://t.me/+4a0naRezQIM2ODRl")
+                    InlineKeyboardButton("⚜️ Mᴏᴠɪᴇs & Sᴇʀɪᴇs ⚜️", url="https://t.me/+-zSPDnReshc0OGI9")
 
                 ]
             ]
