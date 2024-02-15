@@ -10,29 +10,29 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6552734964:AAHNspEeQWt4FIR6bc5QjPmV6jp4HO8aIjg")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6717091024:AAEc7RSYdQW-JcR2qeV1kgk-Gi4mZaSf3Rg")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "29538539"))
+APP_ID = int(os.environ.get("APP_ID", "24650513"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "e3141eb87727600cee656cf0cf8007d6")
+API_HASH = os.environ.get("API_HASH", "3baacb0d0c28fecd42ccdcc0e6e7c173")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002041198640"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002125176787"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6230236721"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5923657595"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://gsuguru183:geto@cluster0.pupdjgv.mongodb.net/?retryWrites=true&w=majority")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://r7952345:eFrrgXx0ybkO5kOf@cluster0.t3dxxst.mongodb.net/?retryWrites=true&w=majority")
 DB_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001909291714"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001922764380"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -40,7 +40,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link.")
 try:
     ADMINS=[]
-    for x in (os.environ.get("ADMINS", "1737202396").split()):
+    for x in (os.environ.get("ADMINS", "6230236721").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -61,7 +61,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "❌ Dᴏɴ'ᴛ Sᴇɴᴅ ᴍᴇ Mᴇꜱꜱᴀɢᴇꜱ Dɪʀᴇᴄᴛʟʏ I'ᴍ ᴏɴʟʏ Fɪʟᴇ Sʜᴀʀᴇ Bᴏᴛ!"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1737202396)
+ADMINS.append(6230236721)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
